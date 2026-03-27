@@ -3,49 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Trend Hub | Official Online Store</title>
+    <title>techtrendhub.my | Official Tech Store Malaysia</title>
     
     <meta name="google-site-verification" content="UodV7UktUFRf3eavMfJPdPvGDGx0AB-dxtV-DF7fvFU" />
+    
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
-        header { border-bottom: 3px solid #007bff; margin-bottom: 30px; padding-bottom: 10px; }
-        h1 { color: #007bff; margin: 0; }
-        .product-section { background: #fff; padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; margin-bottom: 20px; }
-        .btn { background: #28a745; color: white; padding: 12px 25px; text-decoration: none; border-radius: 6px; display: inline-block; font-weight: bold; }
-        footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; }
-        .policy-tag { display: inline-block; background: #e9ecef; padding: 2px 8px; border-radius: 4px; margin-right: 5px; font-size: 0.8em; }
+        body { font-family: -apple-system, system-ui, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        .container { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        header { border-bottom: 3px solid #007bff; margin-bottom: 25px; padding-bottom: 10px; }
+        h1 { color: #007bff; margin: 0; text-transform: lowercase; }
+        .section { background: #fff; padding: 15px; border: 1px solid #eee; border-radius: 8px; margin-bottom: 20px; }
+        .policy-box { background: #fafafa; border-left: 4px solid #007bff; padding: 15px; font-size: 0.95em; }
+        footer { margin-top: 30px; font-size: 0.85em; color: #666; border-top: 1px solid #ddd; padding-top: 20px; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Tech Trend Hub</h1>
-            <p>Your Trusted Partner for Quality Electronics in Malaysia</p>
+            <h1>techtrendhub.my</h1>
+            <p>Your Premier Destination for Latest Tech in Malaysia</p>
         </header>
 
-        <section class="product-section">
-            <h2>Our Store is Launching Soon</h2>
-            <p>We are currently setting up our official inventory to bring you the best tech deals.</p>
-            <p><strong>Status:</strong> Under Final Verification</p>
-            <br>
-            <a href="https://wa.me/60111111111" class="btn">Inquiry via WhatsApp</a>
-        </section>
+        <div class="section">
+            <h2>About techtrendhub.my</h2>
+            <p>Welcome to our official 2026 electronics hub. We provide quality gadgets with local warranty and fast shipping across Malaysia.</p>
+        </div>
+
+        <div class="section">
+            <h3>Return & Refund Policy</h3>
+            <div class="policy-box">
+                <p><strong>1. 7-Day Return:</strong> Items can be returned within 7 days of receipt for manufacturing defects.</p>
+                <p><strong>2. Condition:</strong> Products must be in original packaging with all accessories included.</p>
+                <p><strong>3. Refunds:</strong> Processed within 5-7 working days after inspection to your original payment method.</p>
+                <p><strong>4. Contact:</strong> To start a return, email <strong>techtrendhub.my@gmail.com</strong> or message us on WhatsApp.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Shipping & Delivery</h3>
+            <p>Fast delivery via J&T Express / PosLaju (2-5 working days). Ready stock in Malaysia.</p>
+        </div>
 
         <footer>
-            <h3>Customer Service & Store Policies</h3>
-            <p><strong>Contact:</strong> techtrendhub.my@gmail.com</p>
-            <p>
-                <span class="policy-tag">Fast Shipping</span> 
-                <span class="policy-tag">7-Day Return</span> 
-                <span class="policy-tag">Local Warranty</span>
-            </p>
-            <hr>
-            <p><strong>Shipping Policy:</strong> Standard delivery 2-5 working days via J&T/PosLaju.</p>
-            <p><strong>Refund Policy:</strong> Returns accepted for manufacturing defects within 7 days of receipt.</p>
-            <p>&copy; 2026 Tech Trend Hub Official. All Rights Reserved.</p>
+            <p>&copy; 2026 techtrendhub.my. All Rights Reserved.</p>
+            <p>Official Store for Electronics and Smart Devices.</p>
         </footer>
     </div>
 </body>
 </html>
-
