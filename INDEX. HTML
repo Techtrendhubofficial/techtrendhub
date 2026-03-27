@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trend Hub | Official Online Store</title>
+    
+    <meta name="google-site-verification" content="UodV7UktUFRf3eavMfJPdPvGDGx0AB-dxtV-DF7fvFU" />
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        header { border-bottom: 3px solid #007bff; margin-bottom: 30px; padding-bottom: 10px; }
+        h1 { color: #007bff; margin: 0; }
+        .product-section { background: #fff; padding: 20px; border: 1px solid #e1e4e8; border-radius: 8px; margin-bottom: 20px; }
+        .btn { background: #28a745; color: white; padding: 12px 25px; text-decoration: none; border-radius: 6px; display: inline-block; font-weight: bold; }
+        footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 0.9em; color: #666; }
+        .policy-tag { display: inline-block; background: #e9ecef; padding: 2px 8px; border-radius: 4px; margin-right: 5px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tech Trend Hub</h1>
+            <p>Your Trusted Partner for Quality Electronics in Malaysia</p>
+        </header>
+
+        <section class="product-section">
+            <h2>Our Store is Launching Soon</h2>
+            <p>We are currently setting up our official inventory to bring you the best tech deals.</p>
+            <p><strong>Status:</strong> Under Final Verification</p>
+            <br>
+            <a href="https://wa.me/60111111111" class="btn">Inquiry via WhatsApp</a>
+        </section>
+
+        <footer>
+            <h3>Customer Service & Store Policies</h3>
+            <p><strong>Contact:</strong> techtrendhub.my@gmail.com</p>
+            <p>
+                <span class="policy-tag">Fast Shipping</span> 
+                <span class="policy-tag">7-Day Return</span> 
+                <span class="policy-tag">Local Warranty</span>
+            </p>
+            <hr>
+            <p><strong>Shipping Policy:</strong> Standard delivery 2-5 working days via J&T/PosLaju.</p>
+            <p><strong>Refund Policy:</strong> Returns accepted for manufacturing defects within 7 days of receipt.</p>
+            <p>&copy; 2026 Tech Trend Hub Official. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
