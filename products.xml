@@ -1,25 +1,23 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
   <channel>
     <title>Tech Trend Hub My</title>
-    <link>https://jocelyn0105499506.github.io/marvel-backpack/</link>
-    <description>Minimalist Luxury Marvel Collection</description>
+    <link>https://techtrendhubofficial.github.io/</link>
+    <description>Marvel Backpack Collection</description>
     <item>
-      <g:id>marvel_spiderman_backpack_001</g:id>
+      <g:id>marvel_backpack_01</g:id>
       <g:title>Marvel Spider-Man Premium Heritage Backpack</g:title>
-      <g:description>Classic Spider-Man design meets minimalist luxury. Durable, professional, and perfect for daily use.</g:description>
-      <g:link>https://jocelyn0105499506.github.io/marvel-backpack/</g:link>
-      <g:image_link>https://jocelyn0105499506.github.io/marvel-backpack/backpack.jpg</g:image_link>
+      <g:description>Classic Spider-Man design meets minimalist luxury. Durable and professional.</g:description>
+      <g:link>https://techtrendhubofficial.github.io/</g:link>
+      <g:image_link>https://techtrendhubofficial.github.io/backpack.jpg</g:image_link>
+      <g:brand>Marvel</g:brand>
       <g:condition>new</g:condition>
       <g:availability>in_stock</g:availability>
       <g:price>59.00 MYR</g:price>
       <g:shipping>
         <g:country>MY</g:country>
-        <g:service>Standard Shipping</g:service>
         <g:price>0.00 MYR</g:price>
       </g:shipping>
-      <g:brand>Marvel</g:brand>
-      <g:google_product_category>Apparel &amp; Accessories &gt; Handbags, Wallets &amp; Cases &gt; Backpacks</g:google_product_category>
     </item>
   </channel>
 </rss>
