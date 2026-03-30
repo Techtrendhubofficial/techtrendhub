@@ -3,42 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechTrendHub | Official Electronics & Marvel Store</title>
+    <title>TechTrendHub | Official Store & Wholesale</title>
     <style>
-        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; line-height: 1.6; }
-        .header { text-align: center; padding: 40px 20px; background: #fff; border-bottom: 5px solid #007bff; }
-        .nav-bar { display: flex; justify-content: center; gap: 20px; background: #1a1a1a; padding: 12px; position: sticky; top: 0; z-index: 100; }
+        body { font-family: 'Helvetica Neue', Arial, sans-serif; margin: 0; background: #f4f4f4; color: #333; }
+        .header { text-align: center; padding: 30px; background: #fff; border-bottom: 5px solid #007bff; }
+        .nav-bar { display: flex; justify-content: center; gap: 15px; background: #1a1a1a; padding: 12px; position: sticky; top: 0; z-index: 100; flex-wrap: wrap; }
         .nav-bar a { color: white; text-decoration: none; font-weight: bold; font-size: 13px; text-transform: uppercase; }
         .container { max-width: 1000px; margin: auto; padding: 20px; }
-        .category-title { border-left: 6px solid #007bff; padding-left: 15px; margin: 40px 0 20px; font-size: 24px; color: #111; }
+        .category-title { border-left: 6px solid #007bff; padding-left: 15px; margin: 40px 0 20px; font-size: 24px; font-weight: bold; }
         .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
-        .card { background: #fff; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
-        .price { color: #d32f2f; font-weight: bold; font-size: 24px; margin: 15px 0; }
-        .wa-btn { background: #25D366; color: #fff; padding: 12px 20px; text-decoration: none; border-radius: 50px; font-weight: bold; display: block; transition: 0.3s; }
-        .footer { margin-top: 60px; background: #1a1a1a; color: #bbb; padding: 40px 20px; font-size: 13px; border-radius: 15px 15px 0 0; }
-        .footer b { color: #fff; }
+        .card { background: #fff; padding: 20px; border-radius: 15px; text-align: center; box-shadow: 0 4px 12px rgba(0,0,0,0.1); }
+        .product-img { width: 100%; height: 250px; object-fit: contain; border-radius: 10px; margin-bottom: 15px; }
+        .price { color: #d32f2f; font-weight: bold; font-size: 26px; margin: 10px 0; }
+        .wa-btn { background: #25D366; color: #fff; padding: 12px; text-decoration: none; border-radius: 50px; font-weight: bold; display: block; margin-top: 10px; }
+        
+        /* 批发专区样式 */
+        .wholesale-box { background: linear-gradient(135deg, #007bff, #0056b3); color: white; padding: 30px; border-radius: 15px; margin-top: 50px; text-align: center; }
+        .wholesale-btn { background: #fff; color: #007bff; padding: 15px 30px; text-decoration: none; border-radius: 50px; font-weight: bold; display: inline-block; margin-top: 15px; }
+        
+        .footer { margin-top: 50px; background: #1a1a1a; color: #bbb; padding: 40px 20px; font-size: 13px; }
     </style>
 </head>
 <body>
 
 <div class="header">
-    <h1 style="margin:0; letter-spacing: 1px;">TECH TREND HUB</h1>
-    <p style="margin:10px 0 0; color: #666;">Premium Gadgets & Licensed Marvel Collection</p>
+    <h1 style="margin:0;">TECH TREND HUB</h1>
+    <p style="margin:5px 0 0; color:#666;">Premium Gadgets & Licensed Marvel Collection</p>
 </div>
 
 <div class="nav-bar">
     <a href="#backpacks">🎒 Backpacks</a>
     <a href="#gadgets">🍳 Gadgets</a>
+    <a href="#wholesale">💼 Wholesale</a>
     <a href="#policies">📋 Policies</a>
 </div>
 
 <div class="container">
 
-    <h2 id="backpacks" class="category-title">Marvel Licensed Backpacks</h2>
+    <h2 id="backpacks" class="category-title">Marvel Licensed Collection</h2>
     <div class="product-grid">
         <div class="card">
-            <h3>Spider-Man Edition Backpack</h3>
-            <p>Ergonomic Design | Ready Stock in Shah Alam</p>
+            <img src="46208.jpg" alt="Spider-Man Backpack" class="product-img">
+            <h3>Marvel Spider-Man Edition Backpack</h3>
+            <p>Official Licensed | Ergonomic Design</p>
             <p class="price">RM 159.00</p>
             <a href="https://wa.me/60166787883?text=Hi%20Jocelyn,%20I%20want%20to%20order%20the%20Spider-Man%20Backpack" class="wa-btn">Order via WhatsApp</a>
         </div>
@@ -47,29 +54,25 @@
     <h2 id="gadgets" class="category-title">Smart Home Gadgets</h2>
     <div class="product-grid">
         <div class="card">
-            <h3>Smart Portable Induction Cooker</h3>
-            <p>High Performance | Minimalist Design</p>
-            <p class="price">RM 129.00</p>
-            <a href="https://wa.me/60166787883?text=Hi%20Jocelyn,%20I%20want%20to%20order%20the%20Induction%20Cooker" class="wa-btn">Order via WhatsApp</a>
+            <img src="3163.jpg" alt="KHIND Induction Cooker" class="product-img">
+            <h3>KHIND Smart Induction Cooker (RM108)</h3>
+            <p>2000W High Power | Ready Stock in Shah Alam</p>
+            <p class="price">RM 108.00</p>
+            <a href="https://wa.me/60166787883?text=Hi%20Jocelyn,%20I%20want%20to%20order%20the%20KHIND%20Induction%20Cooker" class="wa-btn">Order via WhatsApp</a>
         </div>
     </div>
 
+    <div id="wholesale" class="wholesale-box">
+        <h2>💼 欢迎代理 & 批发 (Welcome Wholesale)</h2>
+        <p>Looking for supply for your shop or business? We offer special rates for bulk orders!</p>
+        <p><b>想要大量拿货或加盟代理？联系我们获取批发报价单！</b></p>
+        <a href="https://wa.me/60166787883?text=Hi%20Jocelyn,%20I%20am%20interested%20in%20WHOLESALE%20bulk%20orders." class="wholesale-btn">Contact for Wholesale Price</a>
+    </div>
+
     <div id="policies" class="footer">
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; text-align: left;">
-            <div>
-                <b>Contact Info:</b><br>
-                Sales: +60 16-6787883<br>
-                Email: techtrendhub.my@gmail.com
-            </div>
-            <div>
-                <b>Returns & Shipping:</b><br>
-                14-day return policy.<br>
-                Fast delivery from Shah Alam.
-            </div>
-        </div>
-        <p style="text-align: center; margin-top: 30px; border-top: 1px solid #333; padding-top: 20px;">
-            &copy; 2026 TechTrendHub. All Rights Reserved.
-        </p>
+        <p><b>Contact Info:</b> Sales +60 16-6787883 | Location: Shah Alam, Selangor.</p>
+        <p>14-Day Return Policy | Fast Local Shipping (1-3 Days)</p>
+        <p style="text-align:center; border-top:1px solid #333; padding-top:20px;">&copy; 2026 TechTrendHub. All Rights Reserved.</p>
     </div>
 </div>
 
