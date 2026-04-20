@@ -1,68 +1,86 @@
-<!DOCTYPE html> <html lang="en"> <head>     <meta charset="UTF-8">     <meta name="viewport" content="width=device-width, initial-scale=1.0">     <title>Tech Trend Hub | Official Online Store</title>          <meta name="google-site-verification" content="UodV7UktUFRf3eavMfJPdPvGDGx0AB-dxtV-DF7fvFU" />     <style>         body
-        body { font-family: 'Inter', sans-serif; margin: 0; padding: 0; background-color: #ffffff; color: #111; }
-        .hero { 
-            height: 70vh; 
-            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('hat7.jpg'); 
-            background-size: cover; background-position: center; 
-            display: flex; align-items: center; justify-content: center; color: white; text-align: center;
-        }
-        .hero-content h1 { font-size: 40px; letter-spacing: 5px; margin: 0; text-transform: uppercase; }
-        .hero-content p { font-size: 16px; margin: 20px 0 30px; opacity: 0.8; }
-        .shop-btn { background: #fff; color: #000; padding: 12px 35px; text-decoration: none; font-weight: bold; border-radius: 2px; text-transform: uppercase; }
-        
-        .container { max-width: 1200px; margin: 60px auto; padding: 0 20px; }
-        .promo { background: #ff4757; color: white; padding: 10px; text-align: center; font-weight: bold; margin-bottom: 40px; }
-        
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; }
-        .card { border: 1px solid #eee; text-align: center; padding-bottom: 20px; }
-        .card img { width: 100%; height: 350px; object-fit: cover; }
-        .card h3 { font-size: 16px; margin: 20px 0 10px; text-transform: uppercase; }
-        .price { color: #ff4757; font-weight: bold; font-size: 18px; margin-bottom: 20px; }
-        .buy-link { border: 1px solid #000; color: #000; padding: 10px 20px; text-decoration: none; font-size: 13px; font-weight: bold; }
-        .buy-link:hover { background: #000; color: #fff; }
-
-        footer { background: #111; color: #fff; padding: 50px 20px; text-align: center; font-size: 14px; margin-top: 80px; line-height: 1.8; }
-    </style>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Trend Hub | Trendy Lifestyle</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-50 text-gray-900">
 
-<section class="hero">
-    <div class="hero-content">
-        <h1>TECH TREND HUB</h1>
-        <p>HOT GADGETS • URBAN FASHION • SKINCARE</p>
-        <a href="#shop" class="shop-btn">View Collection</a>
-    </div>
-</section>
+    <nav class="bg-white py-4 px-6 shadow-sm flex justify-between items-center">
+        <div class="font-bold text-xl tracking-tighter">TECH TREND HUB</div>
+        <a href="https://wa.me/60166787883" class="text-sm font-medium border-b-2 border-black">WhatsApp Us</a>
+    </nav>
 
-<div class="container" id="shop">
-    <div class="promo">🔥 LIMITED OFFER: ANY 2 CAPS FOR RM30</div>
-    
-    <div class="grid">
-        <script>
-            const hats = [
-                "Classic Khaki Cap", "Sport Embroidered Cap", "Star M Snapback", 
-                "Brooklyn Two-Tone", "Black Mesh Performance", "NY Street Denim", "Washed Denim Bucket"
-            ];
-            hats.forEach((name, i) => {
-                document.write(`
-                    <div class="card">
-                        <img src="hat${i+1}.jpg" alt="${name}">
-                        <h3>${name}</h3>
-                        <div class="price">RM 18 (2 for RM30)</div>
-                        <a href="https://wa.me/60166787883?text=Hi+TechTrendHub,I+want+to+order+Hat${i+1}" class="buy-link">WHATSAPP ORDER</a>
-                    </div>
-                `);
-            });
-        </script>
-    </div>
-</div>
+    <header class="py-20 px-6 text-center bg-white border-b border-gray-100">
+        <h1 class="text-5xl font-black mb-4 tracking-tight">Curated Style.</h1>
+        <p class="text-gray-500 text-lg max-w-xl mx-auto mb-8">
+            Tech Trend Hub was founded by Jocelyn to bring high-quality fashion accessories and tech gadgets to enthusiasts everywhere.
+        </p>
+        <div class="inline-block bg-black text-white px-8 py-3 rounded-full font-bold">
+            🔥 Hats Collection: 2 for RM30
+        </div>
+    </header>
 
-<footer>
-    <strong>TECH TREND HUB</strong><br>
-    WhatsApp: 016-678 7883 (Jocelyn)<br>
-    Shah Alam, Selangor | Fast Shipping Malaysia<br>
-    © 2026 Tech Trend Hub. All Rights Reserved.
-</footer>
+    <section class="max-w-6xl mx-auto px-6 py-16">
+        <h2 class="text-xl font-bold mb-8 uppercase tracking-widest text-center">Shop Categories</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 text-center hover:border-black transition-all">
+                <div class="text-4xl mb-4">🧢</div>
+                <h3 class="font-bold">Trendy Hats</h3>
+                <p class="text-xs text-gray-400 mt-2">Latest Styles</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 text-center hover:border-black transition-all">
+                <div class="text-4xl mb-4">🔌</div>
+                <h3 class="font-bold">Tech Accessories</h3>
+                <p class="text-xs text-gray-400 mt-2">Smart Gadgets</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 text-center hover:border-black transition-all">
+                <div class="text-4xl mb-4">📱</div>
+                <h3 class="font-bold">Phone Cases</h3>
+                <p class="text-xs text-gray-400 mt-2">Full Protection</p>
+            </div>
+
+            <div class="bg-white p-8 rounded-3xl shadow-sm border border-gray-100 text-center hover:border-black transition-all">
+                <div class="text-4xl mb-4">✨</div>
+                <h3 class="font-bold">Lifestyle</h3>
+                <p class="text-xs text-gray-400 mt-2">Curated Items</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-black text-white py-16">
+        <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <div class="text-3xl font-bold">10K+</div>
+                <div class="text-gray-500 text-xs uppercase mt-1">Customers</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold">500+</div>
+                <div class="text-gray-500 text-xs uppercase mt-1">Products</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold">98%</div>
+                <div class="text-gray-500 text-xs uppercase mt-1">Positive</div>
+            </div>
+            <div>
+                <div class="text-3xl font-bold">24/7</div>
+                <div class="text-gray-500 text-xs uppercase mt-1">Support</div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-20 text-center">
+        <p class="mb-6 text-gray-400">Ready to level up your style?</p>
+        <a href="https://wa.me/60166787883" class="bg-black text-white px-12 py-4 rounded-full font-bold shadow-2xl hover:bg-gray-800 transition-all">
+            Order via WhatsApp
+        </a>
+    </footer>
 
 </body>
 </html>
